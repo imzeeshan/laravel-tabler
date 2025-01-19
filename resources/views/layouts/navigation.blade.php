@@ -118,7 +118,6 @@
                 </a>
                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
                     <a href="{{route('profile.edit')}}" class="dropdown-item">Profile</a>
-                    <div class="dropdown-divider"></div>
                     <form method="POST" action="{{ route('logout') }}">
                         @csrf
                         <a href="#" onclick="event.preventDefault(); this.closest('form').submit();"  class="dropdown-item">Logout</a>
